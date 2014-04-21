@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../android-ViewPagerExtensions/android-ViewPagerExtensions.iml" filepath="$PROJECT_DIR$/../../android-ViewPagerExtensions/android-ViewPagerExtensions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muk_android_app.iml" filepath="$PROJECT_DIR$/muk_android_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../sherlock_actionbar_library/sherlock_actionbar_library.iml" filepath="$PROJECT_DIR$/../../sherlock_actionbar_library/sherlock_actionbar_library.iml" />
+    </modules>
+  </component>
+</project>
+

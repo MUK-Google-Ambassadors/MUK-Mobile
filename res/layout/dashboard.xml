@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+
+    <gsa.muk.app.helper.Dashboard
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/dashboard_button_news"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/dashboard_button_news"
+            android:text="News"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/dashboard_button_events"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/dashboard_button_events"
+            android:text="Events"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/dashboard_button_links"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/dashboard_button_links"
+            android:text="Links"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/dashboard_button_about"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/dashboard_button_about"
+            android:text="About"
+            android:textSize="15sp" />
+    </gsa.muk.app.helper.Dashboard>
+
+</LinearLayout>
