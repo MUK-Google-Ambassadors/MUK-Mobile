@@ -16,7 +16,7 @@ public class AboutActivity extends SherlockActivity {
 		Typeface roboto = Typeface.createFromAsset(getAssets(), "roboto.ttf");
 		TextView tv = (TextView) findViewById(R.id.copyright);
 		tv.setText("This app is an initiative by the Google Student Ambassadors at Makerere University.\nAll the code is open-source and anyone can contribute."
-				+ "Find the repository on GitHub at http://github.com/atimothee/muk_android_app.\nEmail any suggestions to: muk_gsas@googlegroups.com\nAll feedback is welcome!");
+				+ "Find the repository on GitHub at http://github.com/MUK-Google-Ambassadors/MUK-Mobile.\nEmail any suggestions to: muk_gsas@googlegroups.com\nAll feedback is welcome!");
 		tv.setTypeface(roboto);
 	}
 }

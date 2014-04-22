@@ -25,12 +25,12 @@
             android:text="Events"
             android:textSize="15sp" />
 
-        <Button
+         <Button
             android:id="@+id/dashboard_button_links"
             style="@style/DashboardButton"
             android:drawableTop="@drawable/dashboard_button_links"
             android:text="Links"
-            android:textSize="15sp" />
+            android:textSize="15sp" /> 
 
         <Button
             android:id="@+id/dashboard_button_about"

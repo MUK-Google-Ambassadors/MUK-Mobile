@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockActivity;
 
@@ -53,7 +54,8 @@ public class DashboardActivity extends SherlockActivity {
 				i = new Intent(DashboardActivity.this, EventsActivity.class);
 				break;
 			case R.id.dashboard_button_links:
-				// i = new Intent(DashboardActivity.this, NotesActivity.class);
+				Toast.makeText(getApplicationContext(), "Oops! Links still under construction!", 
+						   Toast.LENGTH_LONG).show();
 				break;
 			case R.id.dashboard_button_about:
 				i = new Intent(DashboardActivity.this, AboutActivity.class);
